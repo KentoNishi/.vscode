@@ -38,7 +38,7 @@
         },
         {
             "type": "shell",
-            "label": "JOI Tests",
+            "label": "JOI Grader",
             "command": "echo This task is not available in your operating system.",
             "windows": {
                 "command": "cmd.exe",
