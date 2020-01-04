@@ -21,7 +21,7 @@
                     "-g",
                     "${file}",
                     "-o",
-                    "${fileDirname}/result"///${fileBasenameNoExtension}"
+                    "${fileDirname}/result" ///${fileBasenameNoExtension}"
                 ],
                 "options": {
                     "cwd": "/usr/bin"
@@ -35,34 +35,13 @@
                 }
             }
         },
-        /*
         {
             "type": "shell",
             "label": "USACO Tests",
             "windows": {
                 "command": "cmd.exe",
                 "options": {
-                    "cwd": "C:\\Users\\kento\\OneDrive\\Files\\Documents\\GitHub\\USACO-Grader"
-                },
-                "args": [
-                    "/c",
-                    "python",
-                    "grader.py",
-                    "\"${file}\""
-                ]
-            },
-            "group": {
-                "kind": "test",
-                "isDefault": true
-            }
-        },
-        {
-            "type": "shell",
-            "label": "JOI Tests",
-            "windows": {
-                "command": "cmd.exe",
-                "options": {
-                    "cwd": "C:\\Users\\kento\\OneDrive\\Files\\Documents\\GitHub\\JOI-Grader"
+                    "cwd": "C:\\Users\\kento\\Documents\\GitHub\\USACO-Grader"
                 },
                 "args": [
                     "/c",
@@ -76,6 +55,5 @@
                 "isDefault": true
             }
         }
-        */
     ]
 }
