@@ -14,7 +14,7 @@
                 "cwd": ".",
                 "environment": [],
                 "pipeTransport": {
-                    "debuggerPath": "cd $(wslpath '${fileDirname}') && g++ ${fileBasename} -o result -g -Wall && stdbuf -i0 -o0 -e0 gdb", // --ex=\"run < input.in\"
+                    "debuggerPath": "cd $(wslpath '${fileDirname}') && g++ ${fileBasename} -o result -g -Wall && stdbuf -i0 -o0 -e0 gdb --ex=\"run < input.in\"",
                     "pipeProgram": "C:\\Windows\\Sysnative\\bash.exe",
                     "pipeArgs": [
                         "-c"
@@ -51,7 +51,7 @@
                 ],
                 "preLaunchTask": "g++ build active file",
                 "miDebuggerPath": "/usr/bin/gdb",
-                //"miDebuggerArgs": "--ex=\"run < input.in\"",
+                "miDebuggerArgs": "--ex=\"run < input.in\"",
                 "internalConsoleOptions": "neverOpen"
             }
         }
