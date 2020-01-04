@@ -15,6 +15,7 @@
         {
             "type": "shell",
             "label": "g++ build active file",
+            "command": "echo This task is not available in your operating system.",
             "linux": {
                 "command": "/usr/bin/g++",
                 "args": [
@@ -37,7 +38,8 @@
         },
         {
             "type": "shell",
-            "label": "USACO Tests",
+            "label": "USACO Grader",
+            "command": "echo This task is not available in your operating system.",
             "windows": {
                 "command": "cmd.exe",
                 "options": {
