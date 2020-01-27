@@ -35,27 +35,6 @@
                     "isDefault": true
                 }
             }
-        },
-        {
-            "type": "shell",
-            "label": "JOI Grader",
-            "command": "echo This task is not available in your operating system.",
-            "windows": {
-                "command": "cmd.exe",
-                "options": {
-                    "cwd": "C:\\Users\\kento\\Documents\\GitHub\\JOI-Grader"
-                },
-                "args": [
-                    "/c",
-                    "python",
-                    "grader.py",
-                    "\"${file}\""
-                ]
-            },
-            "group": {
-                "kind": "test",
-                "isDefault": true
-            }
         }
     ]
 }
