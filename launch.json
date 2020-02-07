@@ -35,7 +35,7 @@
                 "internalConsoleOptions": "openOnSessionStart"
             },
             "linux": {
-                "program": "${fileDirname}/result",//${fileBasenameNoExtension}",
+                "program": "${fileDirname}/result",
                 "externalConsole": false,
                 "avoidWindowsConsoleRedirection": true,
                 "stopAtEntry": false,
